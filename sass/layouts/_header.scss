@@ -1,0 +1,93 @@
+.header {
+    min-height: 5rem;
+    background-color: $color-blue;
+    position: relative; 
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    &__logo {
+        width: 14rem;
+        height: 2.5rem;
+        position: absolute;
+        left: 18%;
+        top: 50%;
+        z-index: 5;
+        transform: translate(-50%, -50%);
+
+        @media only screen and (max-width: 1140px) and (min-width: 768px) {
+            width: 12rem;
+            left: 15%;
+        }
+
+        @media only screen and (max-width: 767px) and (min-width: 480px) {
+            width: 10rem;
+            left: 17%;
+        }
+
+        @media only screen and (max-width: 479px) and (min-width: 0) {
+            left: 18%;
+            width: 7rem;
+        }
+
+    }
+}
+
+/* !language start */
+.header__language {
+    min-height: 1.5rem;
+    background-color: $color-darkblue;
+
+    @media only screen and (max-width: 1140px) {
+        display: none;
+    }
+}
+
+.language {
+    position: relative;
+
+    &__list {
+        display: flex;
+
+        position: absolute;
+        right: 15%;
+        z-index: 3;
+
+        @media only screen and (max-width: 1500px) {
+            right: 5%;
+        }
+
+        @media only screen and (max-width: 1300px) {
+            right: 1%;
+        }
+    }
+
+    & li:first-child::after {
+        content: "|";
+        color: rgba(255, 255, 255, 0.1);
+        font-size: 0.75rem;
+        padding: 0 0.5rem;
+    }
+
+    &__turkce {
+        color: $color-white;
+        font-size: 0.75rem;
+    }
+
+    &__english {
+        color: $color-white;
+        font-size: 0.75rem;
+        opacity: 0.35;  
+    }
+
+    &__turkce:hover {
+        color: $color-white;
+    }
+
+    &__english:hover {
+        color: $color-yellow;
+        opacity: 1;
+    }
+}
+/* !language end */

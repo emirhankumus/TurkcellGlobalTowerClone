@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>53335FB0-9FA5-47AF-8FCF-708635B0F189</title>
+    <defs>
+        <path d="M13.7683298,22 L13.7683298,13 L16.4536293,13 L16.8922414,9 L13.7683269,9 L13.7683269,7.052 C13.7683269,6.022 13.7941843,5 15.2086579,5 L16.6413333,5 L16.6413333,2.14 C16.6413333,2.097 15.4107328,2 14.1657643,2 C11.5656995,2 9.93766155,3.657 9.93766155,6.7 L9.93766155,9 L7.06465517,9 L7.06465517,13 L9.93766155,13 L9.93766155,22 L13.7683269,22 L13.7683298,22 Z" id="path-1"></path>
+    </defs>
+    <g id="Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01.01.01_Homepage_D" transform="translate(-800.000000, -4054.000000)">
+            <g id="Modules/Framework/Footer/Desktop" transform="translate(0.000000, 3534.000000)">
+                <g id="Group-11" transform="translate(622.000000, 516.000000)">
+                    <g id="Group" transform="translate(135.000000, 3.000000)">
+                        <g id="Icons/Social/Facebook" transform="translate(43.000000, 1.000000)">
+                            <g id="Icons/Grid" opacity="0" stroke="#979797" stroke-width="0.2">
+                                <g id="Group" transform="translate(2.000000, 2.000000)">
+                                    <rect id="Rectangle" x="0.1" y="0.1" width="19.8" height="19.8"></rect>
+                                    <rect id="Rectangle-2" x="2.1" y="0.1" width="15.8" height="19.8"></rect>
+                                    <rect id="Rectangle-2" transform="translate(10.000000, 10.000000) rotate(-90.000000) translate(-10.000000, -10.000000) " x="2.1" y="0.1" width="15.8" height="19.8"></rect>
+                                    <circle id="Oval" cx="10" cy="10" r="9.9"></circle>
+                                    <rect id="Rectangle-5" x="6.1" y="6.1" width="7.8" height="7.8"></rect>
+                                </g>
+                            </g>
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <g id="Icon_Mask"></g>
+                            <g id="Color/White" mask="url(#mask-2)" fill="#FFFFFF">
+                                <rect x="0" y="0" width="24" height="24"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>00BC7697-FD50-4D32-9608-15B40B168B13</title>
+    <defs>
+        <path d="M8.29,20.2806606 C15.837,20.2806606 19.965,14.0163045 19.965,8.58450275 C19.965,8.40617819 19.965,8.228861 19.953,8.052541 C20.756,7.47148275 21.449,6.75017643 22,5.9246838 C21.252,6.25728836 20.457,6.4756838 19.644,6.57185187 C20.5,6.057921 21.141,5.25045924 21.448,4.29773293 C20.642,4.77659924 19.761,5.11421012 18.842,5.29554661 C17.288,3.64054205 14.689,3.56040029 13.036,5.11722205 C11.971,6.12103924 11.518,7.61775468 11.849,9.04533819 C8.55,8.879041 5.476,7.31821012 3.392,4.75056029 C2.303,6.62895643 2.86,9.03131643 4.663,10.2375028 C4.01,10.2184645 3.371,10.0421445 2.8,9.72357187 L2.8,9.77565994 C2.801,11.7322136 4.178,13.4172663 6.092,13.8049606 C5.488,13.9702606 4.854,13.9943052 4.24,13.8750898 C4.777,15.5501298 6.318,16.697207 8.073,16.730267 C6.62,17.8743424 4.825,18.4954613 2.977,18.493467 C2.651,18.4924596 2.325,18.4734213 2,18.4343578 C3.877,19.6405442 6.06,20.2806606 8.29,20.2776996" id="path-1"></path>
+    </defs>
+    <g id="Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01.01.01_Homepage_D" transform="translate(-757.000000, -4053.000000)">
+            <g id="Modules/Framework/Footer/Desktop" transform="translate(0.000000, 3534.000000)">
+                <g id="Group-11" transform="translate(622.000000, 516.000000)">
+                    <g id="Icons/Social/Twitter" transform="translate(135.000000, 3.000000)">
+                        <g id="Icons/Grid" opacity="0" stroke="#979797" stroke-width="0.2">
+                            <g id="Group" transform="translate(2.000000, 2.000000)">
+                                <rect id="Rectangle" x="0.1" y="0.1" width="19.8" height="19.8"></rect>
+                                <rect id="Rectangle-2" x="2.1" y="0.1" width="15.8" height="19.8"></rect>
+                                <rect id="Rectangle-2" transform="translate(10.000000, 10.000000) rotate(-90.000000) translate(-10.000000, -10.000000) " x="2.1" y="0.1" width="15.8" height="19.8"></rect>
+                                <circle id="Oval" cx="10" cy="10" r="9.9"></circle>
+                                <rect id="Rectangle-5" x="6.1" y="6.1" width="7.8" height="7.8"></rect>
+                            </g>
+                        </g>
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Icon_Mask"></g>
+                        <g id="Color/White" mask="url(#mask-2)" fill="#FFFFFF">
+                            <rect x="0" y="0" width="24" height="24"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

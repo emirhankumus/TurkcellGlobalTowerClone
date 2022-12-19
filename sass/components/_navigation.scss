@@ -1,0 +1,209 @@
+/* !navigation start */
+.navigation {
+    width: 90%;
+
+    display: flex;
+    justify-content: flex-end;
+    
+    position: relative;
+
+    @media only screen and (max-width: 1140px) {
+        width: 100%;
+    }
+
+    &__checkbox {
+        display: none;
+    }
+
+    &__button {
+        display: block;
+        position: absolute;
+        top: 50%;
+        right: 0;
+        z-index: 3;
+
+        height: 2rem;
+        width: 2.5rem;
+        transform: translate(-50%, -50%);
+        cursor: pointer;
+        padding: 4px;
+        border-radius: 4px;
+
+        @media only screen and (min-width: 1140px) {
+            display: none;
+        }
+    }
+
+    &__line {
+        display: block;
+        width: 1.4rem;
+        height: 2.5px;
+        background-color: $color-white;
+
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        &::before,
+        &::after {
+            content: " ";
+            position: absolute;
+            left: 0;
+
+            display: block;
+            width: 1.4rem;
+            height: 2.5px;
+            background-color: $color-white;
+        }
+
+        &::before {
+            top: -6px;
+        }
+
+        &::after {
+            top: 6px;
+        }
+    }
+
+    .nav-top {
+        flex: 0 0 80%;
+
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+
+        @media only screen and (max-width: 1140px) {
+            display: none;
+        }
+
+        &__list {
+            width: 70%;
+            margin: auto 0;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+    
+        &__link,
+        &__link:link,
+        &__link:visited {
+            font-size: 1rem;
+            font-weight: 600;
+        }
+    
+        &__item:nth-child(3):hover {
+            border-radius: 0.7rem;
+        } 
+    }
+
+    .nav-bottom {
+        visibility: hidden;
+        width: 100%;
+        height: 100vh;
+        padding: 2rem 0;
+        background-color: $color-blue;
+        box-shadow: 0 2px 5px 2px rgba(black, .2);
+        border: none;
+
+        position: absolute;
+        margin-top: -4.5rem;   
+
+        display: none;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+        &__buttons {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+        }
+
+        &__button {
+            color: $color-white;
+            border: none;
+            width: 98%;
+
+            &:hover,
+            &:active {
+                opacity: 0.8;
+                color: $color-white;
+            }
+
+            &-2 {
+                width: 98%;
+                border: 1px solid white;
+                border-radius: 1rem;
+                padding: 0.75rem;
+                color: $color-blue;
+                background-color: $color-white;
+
+                &:hover,
+                &:active {
+                   opacity: 0.8;
+                   color: $color-blue;
+                   background-color: $color-white;
+                }
+            }
+        }
+
+        &__list {
+            width: 100%;
+            margin-top: 5rem;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        &__link {
+            display: block;
+            width: 100%;
+            border-bottom: 1px solid rgba($color-white, .2);
+            
+            &,
+            &:link,
+            &:visited {
+                display: block;
+                font-size: 1rem;
+                color: $color-white;
+                padding: .5rem 0;
+            }
+
+            &:hover,
+            &:active {
+                color: $color-white;
+            }
+        }
+    }
+
+    &__checkbox:checked ~ .nav-bottom {
+        display: flex;
+
+        animation: anim-nav-bottom .4s ease-in .2s;
+        animation-fill-mode: forwards;
+
+        @media only screen and (min-width: 1140px) {
+            display: none;
+        }
+    }
+
+    &__checkbox:checked + &__button &__line {
+        animation: anim-nav-button-line .3s;
+        animation-fill-mode: forwards;
+    }
+
+    &__checkbox:checked + &__button &__line::before {
+        animation: anim-nav-button-line-before .5s;
+        animation-fill-mode: forwards;
+    }
+
+    &__checkbox:checked + &__button &__line::after {
+        animation: anim-nav-button-line-after .5s;
+        animation-fill-mode: forwards;
+    }
+}
+/* !navigation end */
+

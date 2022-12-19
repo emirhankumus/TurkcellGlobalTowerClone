@@ -1,0 +1,17 @@
+{
+  "name": "yeni-clone",
+  "version": "1.0.0",
+  "description": "Global Tower Website",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass":"node-sass sass/main.scss css/style.css -w"
+  },
+  "keywords": [
+    "Website"
+  ],
+  "author": "Emirhan Kumus",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^8.0.0"
+  }
+}
